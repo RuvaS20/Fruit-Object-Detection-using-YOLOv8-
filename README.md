@@ -1,7 +1,6 @@
 # Fruit Object Detection using YOLOv8n
 
 **CS 463 Final Project - Vision Systems in the Wild**  
-**Author:** Ruvarashe Sadya
 
 Multi-class fruit detection system using transfer learning with YOLOv8n. Detects and localizes 6 fruit types: apple, banana, grape, orange, pineapple, and watermelon.
 
@@ -81,16 +80,14 @@ def setup():
     print("\nDownloading the fruit detection dataset")
     subprocess.run(['kaggle', 'datasets', 'download', '-d', 'lakshaytyagi01/fruit-detection'])
     subprocess.run(['unzip', '-q', 'fruit-detection.zip', '-d', './fruit-detection'])
-    
-    print("\nDataset downloaded to ./fruit-detection")
 ```
 
 **4. Update Google Drive paths:**
 ```python
-# CHANGE FROM:
+# Change from:
 drive_root = Path("/content/drive/MyDrive/fruit_detection_models")
 
-# TO:
+# To:
 your local directory
 
 ```
