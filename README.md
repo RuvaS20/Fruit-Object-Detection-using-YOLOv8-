@@ -1,4 +1,4 @@
-# 🍎 Fruit Object Detection using YOLOv8 🍊
+# Fruit Object Detection using YOLOv8n
 
 **CS 463 Final Project - Vision Systems in the Wild**  
 **Author:** Ruvarashe Sadya
@@ -127,16 +127,6 @@ your local directory
 ---
 
 ## Citation
-
-```bibtex
-@misc{sadya2024fruit,
-  author = {Sadya, Ruvarashe},
-  title = {Fruit Object Detection using YOLOv8},
-  year = {2024},
-  publisher = {GitHub},
-  howpublished = {\url{https://github.com/yourusername/fruit-detection}}
-}
-```
 
 **Dataset:**  
 L. Tyagi, "Fruit Detection Dataset," Kaggle, 2023. DOI: 10.34740/kaggle/dsv/4922010
