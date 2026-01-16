@@ -109,7 +109,7 @@ your local directory
 
 ---
 
-## 📊 Results Summary
+## Results Summary (More in the report)
 
 | Model | mAP@0.5 | Precision | Recall |
 |-------|---------|-----------|--------|
