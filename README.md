@@ -9,7 +9,7 @@ Multi-class fruit detection system using transfer learning with YOLOv8n. Detects
 
 ## Project Overview
 
-- **Model:** YOLOv8n (nano variant)
+- **Model:** YOLOv8n
 - **Dataset:** 8,479 images from Kaggle (84-10-6 train-val-test split)
 - **Classes:** 6 fruit types
 - **Training Strategy:** Progressive fine-tuning (frozen backbone then partial unfreeze then full fine-tune)
@@ -18,7 +18,7 @@ Multi-class fruit detection system using transfer learning with YOLOv8n. Detects
 
 ## Running the Code
 
-### **Option 1: Google Colab **
+### **Option 1: Google Colab**
 
 1. **Upload to Colab:**
    - Upload `Ruva_Final_Project_CV` to Google Colab
@@ -95,7 +95,7 @@ your local directory
 
 ---
 
-## 🎯 Key Functions
+## Key Functions
 
 - `setup()` - Download dataset and install dependencies
 - `show_sample_images()` - Visualize dataset samples
@@ -125,7 +125,7 @@ your local directory
 
 ---
 
-## 📝 Citation
+## Citation
 
 ```bibtex
 @misc{sadya2024fruit,
