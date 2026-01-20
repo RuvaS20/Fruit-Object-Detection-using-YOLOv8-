@@ -54,7 +54,7 @@ from IPython.display import Image as IPImage, display
 drive.mount('/content/drive')
 ```
 
-**2. Update dataset path (Line 82):**
+**2. Update dataset path:**
 ```python
 # CHANGE FROM:
 dataset_root = '/content/fruit-detection'
